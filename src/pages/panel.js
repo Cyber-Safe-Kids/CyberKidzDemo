@@ -33,7 +33,7 @@ export default function panel() {
           <div className="column">
             <img
               className="panelBannerImg"
-                src="https://0066cc.com/cyber/panelimghero.png"
+              src="https://0066cc.com/cyber/panelimghero.png"
               alt="panel Image."
             />
 
@@ -70,10 +70,11 @@ export default function panel() {
             </p>
           </div>
           <div className="column">
-            <img className="panelBannerImg"
-
-                src="https://0066cc.com/cyber/panelimg.png"
-              alt="panel Image." />
+            <img
+              className="panelBannerImg"
+              src="https://0066cc.com/cyber/panelimg.png"
+              alt="panel Image."
+            />
           </div>
         </div>
       </section>
@@ -102,7 +103,7 @@ export default function panel() {
           <div className="column">
             <img
               className="panelBannerImg"
-                src="https://0066cc.com/cyber/panelimg3.png"
+              src="https://0066cc.com/cyber/panelimg3.png"
               alt="panel Image."
             />
           </div>
@@ -137,7 +138,7 @@ export default function panel() {
           <div className="column">
             <img
               className="panelBannerImg"
-                src="https://0066cc.com/cyber/panelimg2.png"
+              src="https://0066cc.com/cyber/panelimg2.png"
               alt="panel Image."
             />
           </div>
@@ -172,7 +173,7 @@ export default function panel() {
           <div className="column">
             <img
               className="panelBannerImg"
-                src="https://0066cc.com/cyber/panelimg4.png"
+              src="https://0066cc.com/cyber/panelimg4.png"
               alt="panel Image."
             />
           </div>
