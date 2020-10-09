@@ -1,11 +1,14 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import './../components/global.css'
-import './../components/example.css'
+import React from "react"
+import { Link } from "gatsby"
+import Header from "./../components/Header"
+import "./../components/Shared/global.css"
+import "./../components/Shared/example.css"
+import Footer from "./../components/Footer"
 
 export default function example() {
   return (
     <>
+      <Header />
       <article>
         <h1>Passwords</h1>
         <img src="https://loremflickr.com/384/216" width="384" height="216" />
@@ -72,36 +75,7 @@ export default function example() {
           quis vel libero.
         </p>
       </article>
-
-      <footer>
-        <div>
-          <h2>
-          <Link to="/">CyberKidz</Link>
-            </h2>
-
-          <h3>Another Tagline</h3>
-        </div>
-        <div className="footerLinks">
-          <div>
-            <p>Some Link</p>
-            <p>Some Link</p>
-            <p>Some Link</p>
-          </div>
-          <div>
-            <p>Some Link</p>
-            <p>Some Link</p>
-            <p>Some Link</p>
-          </div>
-          <div>
-            <p>Some Link</p>
-            <p>Some Link</p>
-            <p>Some Link</p>
-          </div>
-        </div>
-        <div>
-          <p>&#x1F44B;</p>
-        </div>
-      </footer>
+      <Footer />
     </>
   )
 }

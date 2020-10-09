@@ -9,9 +9,10 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+        "real": "npm run format && npm run clean && npm run build  && npm run serve",
+        "serve": "npm run format && gatsby serve --host=0.0.0.0 -p 9000",
+        "github": "npm run format && npm run clean && npm run build && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^2.24.67",
@@ -19,6 +20,7 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "prettier": "2.1.2"
   },
   "repository": {

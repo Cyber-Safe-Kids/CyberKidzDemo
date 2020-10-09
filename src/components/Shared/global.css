@@ -58,19 +58,9 @@ p {
   flex: 1;
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  text-align: center;
-  margin: 0 auto;
-  padding: 0rem;
-  width: 85%;
-  padding: 3rem;
+a:link {
+  text-decoration: none;
 }
-
-.footerLinks p {
-  font-size: 14px;
+a:hover {
   opacity: 0.8;
-  padding: 1.25rem;
 }

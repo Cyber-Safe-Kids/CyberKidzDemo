@@ -1,4 +1,4 @@
-section {
+.block {
   padding-left: 1rem;
   padding-right: 1rem;
   height: 100vh;
@@ -7,37 +7,37 @@ section {
   max-width: 100%;
 }
 body,
-section:nth-of-type(1) {
+.block:nth-of-type(1) {
   background-color: #f0e8e4;
   color: #3a3a3a;
 }
 
-section:nth-of-type(2) {
+.block:nth-of-type(2) {
   background-color: #0066cc;
   color: #f0e8e4;
 }
-section:nth-of-type(3) {
+.block:nth-of-type(3) {
   background-color: #ec5756;
   color: #f0e8e4;
 }
-section:nth-of-type(4) {
+.block:nth-of-type(4) {
   background-color: #e3b447;
   color: #f0e8e4;
 }
-section:nth-of-type(5) {
+.block:nth-of-type(5) {
   background-color: #14a67b;
   color: #f0e8e4;
 }
-section:nth-of-type(6) {
+.block:nth-of-type(6) {
   background-color: #f2984b;
   color: #f0e8e4;
 }
 
-section:nth-of-type(7) {
+.block:nth-of-type(7) {
   background-color: #7cbcd7;
   color: #f0e8e4;
 }
-section:nth-of-type(7) p {
+.block:nth-of-type(7) p {
   text-align: center;
 }
 .paragraph_tagline {
