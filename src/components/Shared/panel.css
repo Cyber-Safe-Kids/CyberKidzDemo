@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.panel {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  /*
+  padding-left: 1rem;
+  padding-right: 1rem;
+  */
+  max-height: 55%;
+  width: 100vw;
+  max-width: 100%;
+  font-family: 'Roboto', serif;
+  background-color: white;
+}
+.panel h1,
+.panel h2,
+.panel h3,
+.panel h4,
+.panel h5,
+.panel h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  align-self: flex-start;
+  text-align: left;
+  width: 85%;
+}
+
+.panel .column {
+  width: 85%;
+  height: 100%;
+  align-self: flex-start;
+  text-align: left;
+}
+
+.panel .column p,
+.panel .column img {
+  width: 85%;
+}
+
+body {
+  background-color: #f0e8e4;
+  color: #5a5a5a;
+}
+
+.panel .row .column:nth-of-type(2) {
+  background-color: white;
+  color: #f0e8e4;
+  box-shadow: -10px 0px 10px 1px #aaaaaa;
+}
+.paragraph_tagline {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.panelHero h2,
+.panelHero h3 {
+  font-size: 48px;
+  width: 100%;
+  text-align: center;
+}
+.panelHero h3 {
+  font-size: 40px;
+}
