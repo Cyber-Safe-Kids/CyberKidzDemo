@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import "./../components/Shared/global.css"
 import "./../components/Shared/gridDesign.css"
-import HeroImg from "./../data/images/hero.png"
 import Footer from "./../components/Footer"
 import Header from "./../components/Header"
 

@@ -10,7 +10,7 @@ export default function Footer() {
       <footer>
         <div>
           <h2>
-                <a href="http://0066cc.com/CyberKidzMVM/">CyberKidz</a>
+            <a href="http://0066cc.com/CyberKidzMVM/">CyberKidz</a>
           </h2>
           <h3>Another Tagline</h3>
         </div>

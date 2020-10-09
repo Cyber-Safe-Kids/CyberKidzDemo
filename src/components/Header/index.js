@@ -8,9 +8,9 @@ export default function Header() {
   return (
     <>
       <nav>
-                <a href="http://0066cc.com/CyberKidzMVM/">CyberKidz</a>
-                <a href="http://0066cc.com/CyberKidzMVM/">CyberKidz</a>
-                <a href="http://0066cc.com/CyberKidzMVM/">CyberKidz</a>
+        <a href="http://0066cc.com/CyberKidzMVM/">CyberKidz</a>
+        <a href="http://0066cc.com/CyberKidzMVM/">CyberKidz</a>
+        <a href="http://0066cc.com/CyberKidzMVM/">CyberKidz</a>
       </nav>
     </>
   )

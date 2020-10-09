@@ -10,17 +10,17 @@ export default function Home() {
         <div className="row">
           <div className="column">
             <h2>
-                <a href="http://0066cc.com/CyberKidzMVM/block/">Block Colours</a>
+              <a href="http://0066cc.com/CyberKidzMVM/block/">Block Colours</a>
             </h2>
           </div>
           <div className="column">
             <h2>
-                <a href="http://0066cc.com/CyberKidzMVM/grid/">Floating grid</a>
+              <a href="http://0066cc.com/CyberKidzMVM/grid/">Floating grid</a>
             </h2>
           </div>
           <div className="column">
             <h2>
-                <a href="http://0066cc.com/CyberKidzMVM/post/">Test post</a>
+              <a href="http://0066cc.com/CyberKidzMVM/post/">Test post</a>
             </h2>
           </div>
         </div>
