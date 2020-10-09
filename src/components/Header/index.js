@@ -8,9 +8,9 @@ export default function Header() {
   return (
     <>
       <nav>
-        <Link to="/">CyberKidz</Link>
-        <Link to="/">CyberKidz</Link>
-        <Link to="/">CyberKidz</Link>
+          <Link to="CyberKidzMVM/">CyberKidz</Link>
+          <Link to="CyberKidzMVM/">CyberKidz</Link>
+          <Link to="CyberKidzMVM/">CyberKidz</Link>
       </nav>
     </>
   )

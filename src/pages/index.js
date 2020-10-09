@@ -10,17 +10,17 @@ export default function Home() {
         <div className="row">
           <div className="column">
             <h2>
-              <Link to="/block/">Block Colours</Link>
+              <Link to="block/">Block Colours</Link>
             </h2>
           </div>
           <div className="column">
             <h2>
-              <Link to="/grid/">Floating Cards</Link>
+              <Link to="grid/">Floating Cards</Link>
             </h2>
           </div>
           <div className="column">
             <h2>
-              <Link to="/post/">Test Post</Link>
+              <Link to="post/">Test Post</Link>
             </h2>
           </div>
         </div>
