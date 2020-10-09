@@ -43,7 +43,7 @@
   -moz-border-radius-topright: 12px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  background: url(./../../../../0066cc.github.io/src/data/images/cyber/astro.png)
+  background: url(/static/cyber/astro.png)
     no-repeat center center #cfcfe6;
   -webkit-background-size: contain;
   -moz-background-size: contain;
