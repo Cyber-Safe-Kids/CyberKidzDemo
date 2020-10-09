@@ -11,11 +11,6 @@ import Header from "./../components/Header"
 import "./../components/Shared/global.css"
 import "./../components/Shared/panel.css"
 
-import panelImghero from "/cyber/panelimghero.png"
-import panelImg from "/cyber/panelimg.png"
-import panelImg2 from "/cyber/panelimg2.png"
-import panelImg3 from "/cyber/panelimg3.png"
-import panelImg4 from "/cyber/panelimg4.png"
 //Export is basically 'create a thing' or 'create a page', you can name it whatever you want, the file name will be used at the path name in the url.
 //e.g File is called about.js will turn into website.com/about/
 export default function panel() {
