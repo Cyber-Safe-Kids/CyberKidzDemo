@@ -1,9 +1,9 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import './../components/Shared/global.css'
-import './../components/Shared/gridDesign.css'
-import Footer from './../components/Footer'
-import Header from './../components/Header'
+import React from "react"
+import { Link } from "gatsby"
+import "./../components/Shared/global.css"
+import "./../components/Shared/gridDesign.css"
+import Footer from "./../components/Footer"
+import Header from "./../components/Header"
 
 export default function gridDesign() {
   return (

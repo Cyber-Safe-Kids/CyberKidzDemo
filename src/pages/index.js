@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import './../components/Shared/global.css'
-import Footer from './../components/Footer'
+import React from "react"
+import { Link } from "gatsby"
+import "./../components/Shared/global.css"
+import Footer from "./../components/Footer"
 
 export default function Home() {
   return (
