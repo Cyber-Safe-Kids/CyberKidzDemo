@@ -1,7 +1,21 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <h1 align="center">
 CyberKidz Demo Site
 </h1>
+
+View the demo at:
+https://0066cc.com/CyberKidzMVM/
+
+To view the outputted HTML that would actually be hosted on a server, switch to the `gh-pages` branch.
+
+For an annotated run down of what a typical page is constructed like, checkout this file:
+https://github.com/0066cc/CyberKidzMVM/blob/main/src/pages/block.js
+
+For technical reasons, the data/images folder is not used in the demos and can be ignored.
+
+---
+
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+
 
 ## 🚀 Quick start
 
