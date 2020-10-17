@@ -1,50 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
-.gridDesign {
-  background: #fff;
-  border-radius: 2px;
-  display: inline-block;
-  margin: 2rem;
-  padding: 2rem;
-  border-radius: 8px;
-  position: relative;
+.gridDesignItem {
+  text-align: center;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 4px;
+  padding: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.gridDesignItem:nth-child(odd):hover,
+.gridDesignItem:nth-child(even):hover {
+  background-image: url('https://0066cc.com/cyber/grid/hover.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-  width: 320px;
-  height: 320px;
-}
-
-.frostGrid {
-  margin: 0 auto;
-  display: grid;
-  grid-template: 320px 320px 320px;
-  grid-grap: 6px;
-  align-items: center;
-  justify-items: center;
-  justify-content: space-evenly;
-  align-content: space-evenly;
-  grid-auto-flow: row;
-}
-
-.gridDesignSection1 div {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-items: center;
-  justify-content: center;
-  height: 100%;
 }
 
 .gridDesignHero {
-  height: 75vh;
-  width: 95%;
+  height: 55vh;
+  width: 75%;
   margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   -webkit-border-top-left-radius: 12px;
   -webkit-border-top-right-radius: 12px;
   -moz-border-radius-topleft: 12px;
   -moz-border-radius-topright: 12px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  background: url(./../../../../0066cc.github.io/src/data/images/cyber/astro.png)
-    no-repeat center center #cfcfe6;
+  /*
+  background: url('/cyber/astro.png') no-repeat center center var(--secondary);
+  background: url('./../../data/images/cyberlogo.png') no-repeat center center
+    var(--secondary);
+  */
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -53,6 +43,7 @@
 }
 
 .gridDesignHero h1 {
+  padding: 2rem;
   font-size: 42px;
   color: white;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
@@ -66,8 +57,7 @@
   align-content: center;
   justify-items: center;
   justify-content: center;
-  background: #efefef;
-  width: 95%;
+  width: 75%;
   margin: 0 auto;
   -webkit-border-bottom-left-radius: 12px;
   -webkit-border-bottom-right-radius: 12px;
@@ -76,15 +66,181 @@
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  background: var(--accent);
 }
-.gridDesignGridIntro p {
-  font-size: 42px;
-  font-weight: bold;
-  height: 96px;
+
+.gridDesignGrid {
+  display: grid;
+  padding: 2rem;
+  grid-gap: 1rem;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(128px, 256px));
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0.5rem 0;
+}
+
+.gridDesignGridFeaturesIntro,
+.gridDesignGridIntro {
+  width: 100%;
   display: flex;
   align-items: center;
   align-content: center;
   justify-items: center;
   justify-content: center;
+  font-weight: bold;
   margin: 0 auto;
+}
+
+.gridDesignContainer,
+.gridDesignFeaturesContainer {
+  background: var(--secondary);
+  border-radius: 12px;
+  margin: 0 auto;
+  padding: 1.25rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.gridDesignItem:nth-child(odd) {
+  background: var(--accent);
+}
+.gridDesignItem:nth-child(odd) {
+  background: var(--accent-light);
+}
+
+.gridHero {
+  height: 45vh;
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.gridHeroHeader {
+  text-align: left;
+  font-size: 56px;
+  font-size: 9.5vw;
+}
+
+.gridHeroSubHeader {
+  display: none;
+  text-align: left;
+}
+
+.gridHeroImg {
+  max-height: 256px;
+  /*
+  filter: invert(100%);
+  */
+}
+
+.gridDesignFeaturesContainer {
+  text-align: center;
+  width: 85%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.gridSignUp {
+  height: 100vh;
+  max-height: 100%;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 56px;
+  text-align: center;
+}
+.gridSignUpBtn {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 18px;
+  padding: 0.45rem;
+  cursor: not-allowed;
+  margin: 1.45rem;
+  border-radius: 8px;
+  border: 2px solid var(--accent);
+  background: var(--accent);
+}
+.gridSignUpBtn:hover {
+  opacity: 0.7;
+}
+
+.gridFeatureImg {
+  max-width: 128px;
+  filter: invert(100%);
+}
+.gridSignUpImg {
+  max-width: 256px;
+  filter: invert(100%);
+}
+
+.gridPageIntro {
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.gridSignUpSubHeader {
+  font-size: 24px;
+}
+
+.gridAgeIntro h1 {
+  font-size: 64px;
+}
+.gridAgeIntro h2 {
+  letter-spacing: 1px;
+  font-size: 32px;
+}
+
+.gridFeaturesPostImg {
+  width: 65%;
+}
+
+.gridEnvironmentContainer {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  height: 100vh;
+  max-height: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+  body {
+    overflow-x: hidden;
+  }
+  .gridDesignContainer {
+    margin: 0 auto;
+    display: block;
+    width: 85vw;
+    max-width: 100%;
+  }
+
+  .gridDesignGrid {
+    display: grid;
+    padding: 1rem;
+    grid-gap: 0.5rem;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(64px, 128px));
+  }
+
+  .column {
+    margin: 0.25rem;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+    padding: 0rem;
+  }
+  .gridEnvironmentContainer {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 65vh;
+    max-height: 100%;
+  }
+
+  .gridPageIntro {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+  }
 }

@@ -3,18 +3,19 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  flex-wrap: wrap;
+  justify-items: space-around;
   text-align: center;
+  flex-wrap: wrap;
   margin: 0 auto;
   padding: 0rem;
   width: 85%;
-  padding: 3rem;
-  font-family: 'Fredoka One', cursive;
-  letter-spacing: 2px;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-nav a:link:hover {
-  text-decoration: underline;
+nav img:hover {
+  opacity: 0.8;
 }
 
 nav a:visited,
@@ -25,9 +26,15 @@ nav a:link {
   padding: 1.25rem;
   text-decoration: none;
   color: #3a3a3a;
+  text-transform: lowercase;
 }
 nav a:visited:nth-of-type(2),
 nav a:link:nth-of-type(2) {
-  font-size: 18px;
+  font-size: 32px;
   color: #000;
+  text-transform: uppercase;
+}
+
+.navHeroImg {
+  height: 96px;
 }
