@@ -10,29 +10,25 @@ export default function Footer() {
       <footer>
         <div>
           <h2>
-            <a href="http://0066cc.com/CyberKidzMVM/">CyberKidz</a>
+            <a className="logo" href="http://0066cc.com/CyberKidzMVM/">
+              CyberKidz
+            </a>
           </h2>
-          <h3>Another Tagline</h3>
+          <h3>Tagline</h3>
         </div>
         <div className="footerLinks">
           <div>
-            <p>Some Link</p>
-            <p>Some Link</p>
-            <p>Some Link</p>
+            <p>About</p>
+            <p>Parents</p>
           </div>
           <div>
-            <p>Some Link</p>
-            <p>Some Link</p>
-            <p>Some Link</p>
+            <p>News</p>
+            <p>Legal</p>
           </div>
           <div>
-            <p>Some Link</p>
-            <p>Some Link</p>
-            <p>Some Link</p>
+            <p>Topics</p>
+            <p>Account</p>
           </div>
-        </div>
-        <div>
-          <p>&#x1F44B;</p>
         </div>
       </footer>
     </>

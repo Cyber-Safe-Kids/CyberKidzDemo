@@ -16,7 +16,6 @@ For technical reasons, the data/images folder is not used in the demos and can b
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 
-
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**

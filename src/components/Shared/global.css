@@ -1,13 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@800&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibm+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+:root {
+  --primary: #153354;
+
+  --secondary: #30617d;
+  --secondary: #30627f;
+  --secondary: #193e66;
+
+  --accent: #7ef8ff;
+  --accent: #99d6ff;
+  --accent: #00bfff;
+  --accent: #2e70b8;
+  --accent-light: #5c97d6;
+
+  --background: #153354;
+  --foreground: #efefef;
+
+  --main-font: 'Roboto';
+  --main-font: 'IBM Plex Sans';
+  --main-font: 'Karla';
+  --header-font: 'Be Vietnam';
+  --logo-font: 'Barlow Semi Condensed';
+  --logo-font: 'Bungee Hairline';
+  --logo-font: 'Oswald';
+  --logo-font: 'Allan';
+}
+
 body {
   overflow-x: hidden;
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font), sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  font-variant-ligatures: normal;
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
 h1,
@@ -16,15 +53,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: var(--header-font), sans-serif;
   font-weight: 800;
 }
 
+/*
 .column > h1 {
   font-size: 5.2vmax;
   letter-spacing: 1px;
   text-align: left;
 }
+*/
 
 p {
   display: inline;
@@ -38,15 +77,13 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;
-  padding: 0rem;
   width: 85%;
-  height: 95vh;
-  max-height: 95vh;
 }
 
 .column {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  margin: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -63,4 +100,14 @@ a:link {
 }
 a:hover {
   opacity: 0.8;
+}
+
+a:visited {
+  color: var(--foreground);
+}
+
+.logo {
+  font-family: var(--logo-font), sans-serif;
+  font-weight: normal;
+  letter-spacing: 4px;
 }
