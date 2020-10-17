@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import "./../Shared/global.css"
-import "./../Shared/footer.css"
+import "./../Shared/globalCyber.css"
+import "./../Shared/footerCyber.css"
 
 export default function Footer() {
   return (

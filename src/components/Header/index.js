@@ -1,9 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
-import "./../Shared/global.css"
-import "./../Shared/header.css"
-import HeroImg from "./../../../../0066cc.github.io/static/cyber/cyberlogoNarrow.png"
+import "./../Shared/globalCyber.css"
+import "./../Shared/headerCyber.css"
 
 export default function Header() {
   return (
@@ -19,7 +18,11 @@ export default function Header() {
       </Helmet>
       <nav>
         <a href="http://0066cc.com/CyberKidzMVM/">
-          <img className="navHeroImg" src={HeroImg} alt="Hero Image." />
+          <img
+            className="navHeroImg"
+            src="https://0066cc.com/cyber/cyberLogoNarrow.png"
+            alt="Hero Image."
+          />
         </a>
       </nav>
     </>

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-import "./../components/Shared/global.css"
-import "./../components/Shared/gridDesign.css"
+import "./../components/Shared/globalCyber.css"
+import "./../components/Shared/gridDesignCyber.css"
 import Footer from "./../components/Footer"
 import Header from "./../components/Header"
 /*
