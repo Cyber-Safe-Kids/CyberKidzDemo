@@ -4,6 +4,7 @@ import "./../components/Shared/global.css"
 import "./../components/Shared/gridDesign.css"
 import Footer from "./../components/Footer"
 import Header from "./../components/Header"
+/*
 import ResponseImg from "./../../../0066cc.github.io/static/cyber/grid/response.gif"
 import CustomImg from "./../../../0066cc.github.io/static/cyber/grid/custom.gif"
 import ProgressImg from "./../../../0066cc.github.io/static/cyber/grid/progress.gif"
@@ -12,6 +13,7 @@ import SignUpImg from "./../../../0066cc.github.io/static/cyber/grid/diamond.gif
 import GroupImg from "./../../../0066cc.github.io/static/cyber/grid/group.png"
 import SchoolImg from "./../../../0066cc.github.io/static/cyber/grid/school.png"
 import GraduationImg from "./../../../0066cc.github.io/static/cyber/grid/graduation.png"
+*/
 
 export default function gridDesign() {
   return (
@@ -39,7 +41,11 @@ export default function gridDesign() {
             data-sal-delay="10"
             data-sal-easing="ease"
           >
-            <img className="gridHeroImg" src={SchoolImg} alt="Hero Image." />
+            <img
+              className="gridHeroImg"
+              src="https://0066cc.com/cyber/grid/school.png"
+              alt="Hero Image."
+            />
           </div>
         </div>
       </div>
@@ -250,7 +256,7 @@ export default function gridDesign() {
             <h2>For Parents&hellip;</h2>
             <img
               className="gridFeaturesPostImg"
-              src={GroupImg}
+              src="https://0066cc.com/cyber/grid/group.png"
               alt="Hero Image."
             />
           </div>
@@ -264,7 +270,7 @@ export default function gridDesign() {
             <h2>&hellip;and Teachers</h2>
             <img
               className="gridFeaturesPostImg"
-              src={GraduationImg}
+              src="https://0066cc.com/cyber/grid/graduation.png"
               alt="Hero Image."
             />
           </div>
@@ -286,7 +292,7 @@ export default function gridDesign() {
             <h3>Learn Anywhere</h3>
             <img
               className="gridFeatureImg"
-              src={ResponseImg}
+              src="https://0066cc.com/cyber/grid/response.gif"
               alt="Hero Image."
             />
           </div>
@@ -294,17 +300,25 @@ export default function gridDesign() {
             <h3>Reward Progress</h3>
             <img
               className="gridFeatureImg"
-              src={ProgressImg}
+              src="https://0066cc.com/cyber/grid/progress.gif"
               alt="Hero Image."
             />
           </div>
           <div className="column">
             <h3>Deepen Understanding</h3>
-            <img className="gridFeatureImg" src={CheckImg} alt="Hero Image." />
+            <img
+              className="gridFeatureImg"
+              src="https://0066cc.com/cyber/grid/check.gif"
+              alt="Hero Image."
+            />
           </div>
           <div className="column">
             <h3>Adjust Content</h3>
-            <img className="gridFeatureImg" src={CustomImg} alt="Hero Image." />
+            <img
+              className="gridFeatureImg"
+              src="https://0066cc.com/cyber/grid/custom.gif"
+              alt="Hero Image."
+            />
           </div>
         </div>
       </div>
@@ -323,7 +337,11 @@ export default function gridDesign() {
               Technology doesn't wait, why should you?
             </h4>
             <p className="gridSignUpBtn">Start learning today</p>
-            <img className="gridSignUpImg" src={SignUpImg} alt="Hero Image." />
+            <img
+              className="gridSignUpImg"
+              src="https://0066cc.com/cyber/grid/diamond.gif"
+              alt="Hero Image."
+            />
           </div>
         </div>
       </div>

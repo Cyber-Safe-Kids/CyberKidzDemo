@@ -11,7 +11,7 @@
 
 .gridDesignItem:nth-child(odd):hover,
 .gridDesignItem:nth-child(even):hover {
-  background-image: url('./../../data/images/grid/hover.gif');
+  background-image: url('https://0066cc.com/cyber/grid/hover.gif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,9 +32,9 @@
   border-top-right-radius: 12px;
   /*
   background: url('/cyber/astro.png') no-repeat center center var(--secondary);
-  */
   background: url('./../../data/images/cyberlogo.png') no-repeat center center
     var(--secondary);
+  */
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -238,11 +238,9 @@
     max-height: 100%;
   }
 
-.gridPageIntro {
-  text-align: center;
-  width: 95%;
-  margin: 0 auto;
-}
-
-
+  .gridPageIntro {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+  }
 }
