@@ -3,7 +3,7 @@ CyberKidz Demo Site
 </h1>
 
 View the demo at:
-https://0066cc.com/CyberKidzMVM/
+~~https://0066cc.com/CyberKidzMVM/~~
 
 To view the outputted HTML that would actually be hosted on a server, switch to the `gh-pages` branch.
 
