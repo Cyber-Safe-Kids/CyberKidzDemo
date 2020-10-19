@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietname&family=Allan&family=Karla&display=swap");
+
+:root {
+  --header-font: "Be Vietnam";
+  --main-font: "Roboto";
+  --code-font: "Roboto Mono";
+
+  --primaryCyber: #153354;
+  --secondaryCyber: #193e66;
+  --accentCyber: #2e70b8;
+  --accent-lightCyber: #5c97d6;
+  --backgroundCyber: #153354;
+  --foregroundCyber: #efefef;
+
+  --main-fontCyber: "Karla";
+  --header-fontCyber: "Be Vietnam";
+  --logo-fontCyber: "Allan";
+}
+
+.bodyCyber {
+  width: 100vw;
+  max-width: 100%;
+  height: 100%;
+  font-family: var(--main-fontCyber), sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: normal;
+  background-color: var(--backgroundCyber);
+  color: var(--foregroundCyber);
+  /*Unbelievably hacky solution, do not do this*/
+  margin-left: -64px;
+  margin-right: -64px;
+}
+
+.bodyCyber h1,
+.bodyCyber h2,
+.bodyCyber h3,
+.bodyCyber h4,
+.bodyCyber h5,
+.bodyCyber h6 {
+  font-family: var(--header-fontCyber), sans-serif;
+  font-weight: 800;
+}
+
+.bodyCyber p {
+  display: inline;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.75rem;
+}
+
+.bodyCyber .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.bodyCyber .column {
+  margin: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  align-content: center;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.bodyCyber a:link {
+  text-decoration: none;
+}
+.bodyCyber a:hover {
+  opacity: 0.8;
+}
+
+.bodyCyber a:visited {
+  color: var(--foregroundCyber);
+}
+
+.bodyCyber .logo {
+  font-family: var(--logo-fontCyber), sans-serif;
+  font-weight: normal;
+  letter-spacing: 4px;
+}

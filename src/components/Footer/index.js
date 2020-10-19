@@ -1,38 +1,34 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import "./../Shared/global.css"
-import "./../Shared/footer.css"
+import "./../Shared/globalCyber.css"
+import "./../Shared/footerCyber.css"
 
-export default function Footer() {
+export default function FooterCyber() {
   return (
     <>
       <footer>
         <div>
           <h2>
-            <a href="http://0066cc.com/CyberKidzMVM/">CyberKidz</a>
+            <a className="logo" href="/cyber/">
+              CyberKidz
+            </a>
           </h2>
-          <h3>Another Tagline</h3>
+          <h3>Tagline</h3>
         </div>
         <div className="footerLinks">
           <div>
-            <p>Some Link</p>
-            <p>Some Link</p>
-            <p>Some Link</p>
+            <p>About</p>
+            <p>Parents</p>
           </div>
           <div>
-            <p>Some Link</p>
-            <p>Some Link</p>
-            <p>Some Link</p>
+            <p>News</p>
+            <p>Legal</p>
           </div>
           <div>
-            <p>Some Link</p>
-            <p>Some Link</p>
-            <p>Some Link</p>
+            <p>Topics</p>
+            <p>Account</p>
           </div>
-        </div>
-        <div>
-          <p>&#x1F44B;</p>
         </div>
       </footer>
     </>
